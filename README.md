@@ -17,7 +17,7 @@ A imagem mobile é alinhada ao topo, sem recortar o rosto, e continua sobre um f
 
 ## Formulário
 
-Sem integração, persistência ou envio de dados. O JavaScript mínimo impede o envio e informa que se trata de protótipo. Os outros botões retornam ao formulário.
+Sem integração, persistência ou envio de dados. O formulário valida os campos obrigatórios e redireciona para `obrigado.html`, sem transmitir dados. A página de agradecimento também é demonstrativa. Os outros botões retornam ao formulário.
 
 ## Tipografia
 
