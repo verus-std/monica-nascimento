@@ -30,3 +30,7 @@ CTAs em formato de cápsula, com borda champagne e brilho dourado. A adaptação
 ## Referência Figma da hero
 
 A hierarquia tipográfica, a largura do título, o tamanho do texto de apoio e o alinhamento do botão foram ajustados com base na referência visual do nó 2:2. O conector não permitiu consultar medidas ou exportar assets; o logo original Masterclass A Montanha foi fornecido posteriormente e aplicado no cabeçalho.
+
+## GitHub Pages
+
+O workflow `.github/workflows/pages.yml` publica a pasta `dist` automaticamente quando a branch `main` recebe alterações. Não há etapa de compilação nem dependências de build. Os arquivos estáticos usam caminhos relativos, compatíveis com a subpasta do GitHub Pages.
