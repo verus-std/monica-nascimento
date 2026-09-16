@@ -162,6 +162,7 @@ a:focus-visible { outline: 2px solid #b28d50; outline-offset: 5px; }
   width: 228px;
   height: 76px;
   object-fit: contain;
+  mix-blend-mode: screen;
   flex-shrink: 0;
 }
 @media (max-width: 680px) {
