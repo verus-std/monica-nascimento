@@ -61,7 +61,7 @@ a:focus-visible { outline: 2px solid #b28d50; outline-offset: 5px; }
 
 /* Supplied hero artwork: desktop and mobile have independent compositions. */
 :root {
-  --hero-image: url('assets/hero-desktop.webp');
+  --hero-image: url('assets/hero-new-desktop.webp');
   --hero-background-color: #000412;
 }
 .hero {
@@ -87,7 +87,7 @@ a:focus-visible { outline: 2px solid #b28d50; outline-offset: 5px; }
 @media (max-width: 900px) {
   .hero { min-height: 0; padding-bottom: 65px; }
   .hero-background {
-    background-image: url('assets/hero-mobile.webp');
+    background-image: url('assets/hero-new-mobile.webp');
     background-size: 100% auto;
     background-position: center top;
   }
@@ -201,8 +201,8 @@ a:focus-visible { outline: 2px solid #b28d50; outline-offset: 5px; }
   .hero { padding-bottom: 38px; }
   .hero .masthead { min-height: 64px; }
   .hero-background {
-    background-image: linear-gradient(180deg, transparent 90px, rgba(0, 4, 18, .55) 170px, #000412 290px), linear-gradient(90deg, #000412, transparent 30%), url('assets/hero-mobile.webp');
-    background-size: 100% 100%, 281px 100%, auto 620px;
+    background-image: linear-gradient(180deg, transparent 90px, rgba(0, 4, 18, .55) 170px, #000412 290px), linear-gradient(90deg, #000412, transparent 30%), url('assets/hero-new-mobile.webp');
+    background-size: 100% 100%, 295px 100%, auto 340px;
     background-position: center top, right top, right top;
   }
   .hero-content { padding-top: clamp(100px, 17svh, 150px); }
@@ -218,7 +218,7 @@ a:focus-visible { outline: 2px solid #b28d50; outline-offset: 5px; }
 @media (max-width: 680px) and (max-height: 740px) {
   .hero-content { padding-top: 72px; }
   .hero-background {
-    background-image: linear-gradient(180deg, transparent 60px, rgba(0, 4, 18, .65) 130px, #000412 230px), linear-gradient(90deg, #000412, transparent 30%), url('assets/hero-mobile.webp');
-    background-size: 100% 100%, 218px 100%, auto 480px;
+    background-image: linear-gradient(180deg, transparent 60px, rgba(0, 4, 18, .65) 130px, #000412 230px), linear-gradient(90deg, #000412, transparent 30%), url('assets/hero-new-mobile.webp');
+    background-size: 100% 100%, 234px 100%, auto 270px;
   }
 }
