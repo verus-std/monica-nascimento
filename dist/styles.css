@@ -222,3 +222,9 @@ a:focus-visible { outline: 2px solid #b28d50; outline-offset: 5px; }
     background-size: 100% 100%, 234px 100%, auto 270px;
   }
 }
+
+/* Give the registration action a more readable label at every screen size. */
+.hero .capture-form .cta { font-size: 15px; letter-spacing: .2px; }
+@media (max-width: 680px) {
+  .hero .capture-form .cta { font-size: 14px; letter-spacing: 0; gap: 10px; padding-inline: 12px; }
+}
