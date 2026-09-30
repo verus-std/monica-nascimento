@@ -10,6 +10,8 @@ Use **`monica-nascimento-pagina-vendas-elementor.json`**. Ele é um modelo de p�
 
 O modelo tem 15 widgets HTML identificados no Navegador: estilos, faixa superior, cabeçalho, 11 seções e rodapé. Cada seção pode ser editada em seu widget HTML. O primeiro widget, **“Estilos da página · manter”**, contém as fontes, cores e regras responsivas; não o exclua.
 
+Para atualizar apenas o quadro de investimento em uma página já importada, substitua todo o conteúdo do widget **“08 · Investimento e checkout”** pelo código de `widget-08-investimento.html`. Ele inclui os estilos do preço parcelado.
+
 ## O que está incluído
 
 - Copy e layout completos da página de vendas publicada no GitHub Pages.
